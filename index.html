@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My_cv</title>
+  <link rel="icon" href="assets/ico_panda.ico">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link ">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+  <main class="main">
+    <div class="container main-container ">
+      <section class="section" id="profile">
+        <h1 class="section-title">Александр Бедненко</h1>
+        <div class="photo"></div>
+      </section>
+
+      <section class="section" id="contacts">
+        <h2 class="section-title">Контакты</h2>
+        <ul>
+          <li>tg:@BednenkoAlexander</li>
+          <li>phone: +7-910-361-16-02</li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">Информация обо мне</h2>
+        <p>Моё хобби это шахматы, логика, порядок и рациональность это моё, а значит решение алгоритмов моя сильная
+          сторона.
+          Обо мне говорят, что я упрямый, это так, но поставленная задача будет выполнена любым способом. </p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Навыки</h2>
+        <ul>
+          <li>Python </li>
+          <li>Django </li>
+          <li>Django Framework </li>
+          <li>DRF </li>
+          <li>REST API </li>
+          <li>Nginx L</li>
+          <li>Linux </li>
+          <li>Git </li>
+          <li>SQLite </li>
+          <li>PostgreSQL </li>
+          <li>Bash </li>
+          <li>Docker </li>
+          <li>Алгоритмы</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Пример кода</h2>
+        <pre class="code">
+          from django.contrib import admin
+from django.urls import include, path
+
+urlpatterns = [
+    path('', include('posts.urls')),
+    path('admin/', admin.site.urls),
+]
+        </pre>
+      </section>
+      <section class="section" id="courses">
+        <h2 class="section-title">Опыт работы</h2>
+        <p>Python-разработчик(обучение)</p>
+        <div class="photo_cour"></div>
+      </section>
+      <section class="section" id="projects">
+        <h2 class="section-title">Проекты:</h2>
+        <p><span>
+            <li>Модуль фитнес-трекера</li>
+          </span><br>
+          Данный модуль рассчитывает и отображать результаты тренировки<br>
+          для трех видов спорта: бег,
+          ходьба, плавание.<br>
+          Стек: Python</p>
+        <a href="https://github.com/Alexander28-31/hw_python_oop.git">Сылка на Git</a>
+        <p><span>
+            <li>соцсеть Yatube</li>
+          </span><br>
+          Занимался функционалом создания, редактирования и комментирование постов, а также
+          добавление подписок на авторов. Настройка админки и покрытие Unit тестами.
+          <br>
+          Стек: Python, Django, SQLite
+        </p>
+        <a href="https://github.com/Alexander28-31/hw05_final.git">Сылка на Git</a>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Образование</h2>
+        <p>
+          Благовещенский государственный педагогический университет
+          им. М.И. Калинина, Благовещенск (Амурская область)
+        </p>
+        <p>Инженер информационных систем и технологий</p>
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title"></h2>
+        <p></p>
+      </section>
+    </div>
+
+  </main>
+  <footer class="footer">
+    <div class="container"><span class="span_footer">2022</span>
+
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>
