@@ -1,5 +1,5 @@
 # rsschool-cv
 # git cv
-[GIT-cv](https://GITHUB-USERNAME.github.io/rsschool-cv/cv)
+[GIT-cv](https://Alexander28-31.github.io/rsschool-cv/cv)
 # git 
-[GIT](https://GITHUB-USERNAME.github.io/rsschool-cv)git log
+[GIT](https://Alexander28-31.github.io/rsschool-cv)
